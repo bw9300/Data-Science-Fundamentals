@@ -16,7 +16,7 @@ suger = float(22.3)
 coockiecount = input("How many coockies did you eat?: ")
 
 # convert input to int for calculation
-tot_coockies = int(coockiecount)
+tot_coockies = float(coockiecount)
 
 # Calculate total
 tot_calories = calories * tot_coockies
